@@ -4,9 +4,10 @@ Basic API for checking leaked credentials existence
 
 ## Installation
 
-Install Node v20 and setup packages
+Install Node v20 using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) and setup packages
 
 ```bash
+$ nvm install 20
 $ npm install
 ```
 
@@ -29,7 +30,7 @@ $ npm run start:prod
 ## Usage
 
 Send **GET** request to **/api/credentials/leaked** endpoint
-#### QUERY PARAMS
+#### Query Params
   - username - string
   - password - string
   - hash - string
