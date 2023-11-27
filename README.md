@@ -32,7 +32,11 @@ Send **GET** request to **/api/credentials/leaked** endpoint
 #### QUERY PARAMS
   - username - string
   - password - string
-  - has - string
+  - hash - string
+
+#### Retrun
+ - True - string
+ - False - string
 
 If passed **hash** param it will search by hash and ignoring other params
 If **hash** not passed then it will try to search by **username** and **password**
